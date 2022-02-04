@@ -9,7 +9,7 @@ function ShoutOutPost({ shout }: Props) {
   return (
     <div className="ShoutOutPost">
       <h3>Shout out to {shout.to}</h3>
-      <p>- from {shout.from}</p>
+      <p className="fromText">- from {shout.from}</p>
       <p>{shout.shoutOut}</p>
     </div>
   );

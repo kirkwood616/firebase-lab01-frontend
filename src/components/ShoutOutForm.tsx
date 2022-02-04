@@ -31,7 +31,7 @@ function ShoutOutForm({ onSubmit }: Props) {
       <h2>Leave a Shout Out</h2>
       <form onSubmit={handleShoutSubmit}>
         <label htmlFor="to">
-          <p>To</p>
+          <p className="formLabel">To</p>
         </label>
         <input
           type="text"
@@ -42,7 +42,7 @@ function ShoutOutForm({ onSubmit }: Props) {
           onChange={(e) => setTo(e.target.value)}
         />
         <label htmlFor="from">
-          <p>From</p>
+          <p className="formLabel">From</p>
         </label>
         <input
           type="text"
@@ -53,13 +53,11 @@ function ShoutOutForm({ onSubmit }: Props) {
           onChange={(e) => setFrom(e.target.value)}
         />
         <label htmlFor="shoutOut">
-          <p>Shout Out</p>
+          <p className="formLabel">Shout Out</p>
         </label>
         <textarea
           name="shoutOut"
           id="shoutOut"
-          rows={7}
-          cols={50}
           value={shoutOut}
           onChange={(e) => setShoutOut(e.target.value)}
         />

@@ -19,7 +19,6 @@ function Main() {
 
   return (
     <div className="Main">
-      <h1>Main</h1>
       <ShoutOutsList shouts={shoutOuts} />
       <ShoutOutForm onSubmit={handleShoutOuts} />
     </div>

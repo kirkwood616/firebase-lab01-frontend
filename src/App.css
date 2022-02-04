@@ -1,0 +1,67 @@
+body {
+  background-color: #eee;
+  margin: 1rem;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+}
+
+.Main {
+  width: 50%;
+}
+
+.ShoutOutPost {
+  background-color: white;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 100%;
+}
+
+.ShoutOutPost .fromText {
+  color: #333;
+}
+
+.ShoutOutPost h3 {
+  margin: 0.25rem 0 1rem 0;
+}
+
+.ShoutOutForm {
+  background-color: white;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 100%;
+}
+
+.ShoutOutForm .formLabel {
+  font-weight: bold;
+  margin: 1rem 0 0.25rem 0;
+}
+
+.ShoutOutForm button {
+  background-color: white;
+  border: 1px solid #999;
+  border-radius: 5px;
+  box-shadow: 2px 2px 0px black;
+  cursor: pointer;
+  display: block;
+  font-weight: bold;
+  margin: 10px 0;
+  padding: 5px 10px;
+}
+
+.ShoutOutForm input {
+  width: 45%;
+}
+
+.ShoutOutForm textarea {
+  width: 95%;
+  height: 7rem;
+}
